@@ -1,0 +1,25 @@
+header {
+    background-color: papayawhip;
+    font-size: 50px;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+}
+
+
+
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: darkblue;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 250px;
+    text-align: center;
+    border: 3px solid white;
+
+}
