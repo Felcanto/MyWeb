@@ -1,25 +1,110 @@
-header {
-    background-color: papayawhip;
-    font-size: 50px;
-    width: 100vw;
-    height: 10vh;
-    text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
+body {
+  background-color: rgb(13, 17, 23);
+}
 
+header {
+  background-color: rgb(22, 27, 34);
+  color: rgb(57, 255, 20);
+  display: flex;
+  font-size: 50px;
+  width: 100vw;
+  height: 7.5vh;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid rgb(48, 54, 61); /* разделитель */
+}
 
 nav {
-    background-color: rgb(0, 0, 0);
-    padding: 10px;
-    color: darkblue;
-
+  background-color: rgb(22, 27, 34);
+  padding: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin: 250px;
-    text-align: center;
-    border: 3px solid white;
+.nava {
+  text-decoration: none;
+  color: rgb(0, 255, 255);
+  margin-right: 100px;
+  margin-left: 70px;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+  width: 100px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgb(57, 255, 20);
+}
 
+p {
+  color: rgb(201, 209, 217);
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 255, 255);
+  margin-left: 20px; /* расстояние между пунктами меню */
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0, 255, 0, 0.5);
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: rgba(57, 255, 20, 0.2);
+}
+
+.status {
+  color: #39ff14;
+  background-color: rgb(10, 15, 20);
+  height: 30px;
+  margin-left: 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14;
+}
+
+.cursor {
+  animation: blink 1s steps(2, start) infinite;
+}
+
+.logo-text {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.activity {
+  font-size: 20px;
+
+  margin-left: 600px;
+  font-family: monospace;
+  color: #39ff14;
 }
