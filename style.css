@@ -101,10 +101,7 @@ nav a:hover {
   }
 }
 
-.activity {
-  font-size: 20px;
-
-  margin-left: 600px;
-  font-family: monospace;
-  color: #39ff14;
+.hello {
+  font-size: 30px;
+  margin-left: 500px;
 }
